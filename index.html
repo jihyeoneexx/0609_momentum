@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width" initial-scale="1.0">
+    <title>  </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;600&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script defer src="js/logins.js"></script>
+    <script defer src="js/clock.js"></script>
+    <script defer src="js/quotes.js"></script>
+    <script defer src="js/background.js"></script>
+    <script defer src="js/todo.js"></script>
+    <script defer src="js/weather.js"></script>
+</head>
+<body>
+    <h1 id="greeting" class="hidden"></h1>
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is your name?">
+        <input type="submit" value="Log In">
+    </form>
+    <!--html 자체 input 유효성 결과를 확인하기 위해서는 꼭 form 태그 안에 input을 사용해야함!
+    But, Submit시 페이지가 재시작(refresh) 됨-->
+    <h2 id="clock">00:00:00</h2>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required>
+    </form>
+    <ul id="todo-list">
+        <!--Javascript로 사용자 리스트 추가-->
+    </ul>
+    <div id ="quotes">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+   <!-- <a href="https://nomadcoders.co">Go to courses</a>-->
+</body>
+</html>
