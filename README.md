@@ -4,7 +4,7 @@ Javascript를 사용하여 Chrome Extention Momentum 클론코딩
 
 --------------------------------------------------------
 
-작업기간: 0609 - 0618
+작업기간: 0609 - 0618 <br>
 사용언어: html, Javascript, CSS
 
 --------------------------------------------------------
@@ -28,5 +28,6 @@ todo.js
 
 weather.js
  - openweathermap의 API를 사용하여 실시간 위치, 날씨, 기온 정보를 표현
-
+<br>
+<br>
 https://nomadcoders.co/
