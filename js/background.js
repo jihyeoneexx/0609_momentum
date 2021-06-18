@@ -5,15 +5,11 @@
 const images = [
     "1.jpg", "2.jpg", "3.jpg",
 ]
-// img 폴더의 이미지들과 array 안의 이름이 동일하도록
-// 이미지 파일의 이름을 jpvascript 안에서도 똑같은 형태로 쓴다!
 
 const chosenImages = images[Math.floor(Math.random()*images.length)];
 
 const bgImage = document.createElement("img");
-// document에 없는 요소를 javascript로 생성할 경우
 bgImage.src = `img/${chosenImages}`;
 
 document.body.appendChild(bgImage);
-// 생성한 html element를 body안에 추가하는 경우 
 bgImage.id = 'bgImage';
