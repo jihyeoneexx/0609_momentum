@@ -24,8 +24,6 @@ const quotes = [
     sub: "  - About time",
     }
 ]
-// array 내부의 object 형태
-// arry형태로 정렬된 object에 랜덤하게([0]~[7]중에 하나) 접근하여 그 중 1개를 송출해야함
 
 const quote = document.querySelector("#quotes span:first-child");
 const author = document.querySelector("#quotes span:last-child");
